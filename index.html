@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Joel Gibson">
+    <meta name="description" content="A visualisation of NSW Covid case locations over time, since June 2021.">
+    <link rel="stylesheet" href="./fonts-v1.css">
+    <style>
+        body {
+            font-family: "Libertinus Serif", Georgia, Times, "Times New Roman", serif;
+            color: black;
+            word-wrap: break-word;
+            line-height: 1.5em;
+            font-size: 1.1em;
+        }
+        body > * {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1, h2, h3 {
+            font-family: "Libertinus Sans", sans-serif;
+            font-weight: normal;
+        }
+        footer {
+            border-top: 1px solid #aaa;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        }
+        #mapid { height: 1000px; max-width: 1200px; margin-left: auto; margin-right: auto; }
+        @media only screen and (max-height: 1000px) { #mapid {height: 800px}; }
+        @media only screen and (max-height: 800px) { #mapid {height: 650px}; }
+        @media only screen and (max-height: 700px) { #mapid {height: 550px}; }
+        @media only screen and (max-height: 600px) { #mapid {height: 450px}; }
+        @media only screen and (max-height: 500px) { #mapid {height: 350px}; }
+        @media only screen and (max-height: 400px) { #mapid {height: 250px}; }
+        @media only screen and (max-width: 600px) { body {margin: 0; padding: 0;}}
+        
+        input[type=range] { display: block; width: 100%; }
+        button { width:7em; }
+    </style>
+    <title>NSW COVID-19 case locations</title>
+</head>
+<body>
+    <h1>NSW COVID-19 case locations</h1>
+    <p>With regional NSW experiencing tighter restrictions and Greater Sydney even starting stay-at-home orders this week, I decided to experiment with mapping visualisations using the topic on everybody's mind: COVID-19. In particular, how COVID-19 has spread through Sydney and NSW in the last few weeks. I intend to keep this up-to-date, at least for a few weeks. </p>
+    <p>The map below shows the COVID-19 case locations in NSW over time, beginning from Friday 11th June, 2021. Move the slider back and forth to see how the distribution of cases changes over time. Each new case location is indicated as a large red circle which disappears over 24 hours, leaving behind a smaller blue circle with the case location and time. The map can be panned and zoomed to show more cases (currently as far south as Shellharbour).</p>
+    <p><strong><em>Disclaimer:</em></strong> The map below is a data visualisation experiment and is <em>not</em> health advice of any kind. In particular, some data may be out-of-date. For up-to-date COVID case locations, as well as current restrictions, visit the <a href="https://www.nsw.gov.au/covid-19" target="_external">NSW Government COVID-19 Website</a>.</p>
+    <div id="mapid"></div>
+    <input type="range" min="0" max="1" step="0.001" value="0" id="rangeInput"/>
+    <p><button id="animate">Animate</button> <span id="date"></span></p>
+    <p>The data is sourced from the publicly-available <a href="https://data.nsw.gov.au/nsw-covid-19-data/case-locations" target="_external">dataset</a> on COVID-19 case locations provied by the NSW Government. The <a href="https://leafletjs.com/" target="_external">Leaflet</a> library is used for showing maps, along with map tiles provided by <a href="https://www.openstreetmap.org" target="_external">OpenStreetMap</a>. The source code is <a href="https://github.com/joelgibson/covid-locations" target="_external">available on GitHub</a>.</p>
+    <footer>
+        <a href="https://www.jgibson.id.au/">Joel Gibson</a>. Last updated 28th June, 2021.
+    </footer>
+
+    <script type="module" src="./src/index.ts"></script>
+</body>
+</html>
