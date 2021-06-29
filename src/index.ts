@@ -1,7 +1,7 @@
 import {CasesJSON, firstTime} from './cases'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
-import casesUntyped from './covid-case-locations-20210629-0955.json'
+import casesUntyped from './covid-case-locations-20210629-1100.json'
 
 let cases = casesUntyped as CasesJSON
 
@@ -36,7 +36,7 @@ function insertionPoint(time: Date) {
     return caseData.length
 }
 
-let {setState, getState} = (function() {
+let {setState, getState, rangeInput} = (function() {
     // minTime corresponds to 0.0
     let minTime = caseData[0].firstTime
 
@@ -47,12 +47,11 @@ let {setState, getState} = (function() {
     // I/O
     let rangeInput = document.getElementById('rangeInput') as HTMLInputElement
     let spanOutput = document.getElementById('date') as HTMLSpanElement
-    rangeInput.addEventListener('input', () => setState(+rangeInput.value))
 
     // Internal memory of the last state.
     let state = 0.0
 
-    return {setState, getState() { return state }}
+    return {setState, getState() { return state }, rangeInput}
 
     function stateToDate(state: number): Date {
         return new Date(minTime.getTime() + deltams * state)
@@ -110,6 +109,8 @@ let {playAnimation, pauseAnimation} = (function() {
             return
         
         lastState = getState()
+        if (lastState >= 1.0)
+            lastState = 0.0
         setState(lastState)
         lastTick = new Date()
         interval = setInterval(tickAnimation, 10)
@@ -117,6 +118,9 @@ let {playAnimation, pauseAnimation} = (function() {
     }
 
     function pauseAnimation() {
+        if (interval === null)
+            return
+        
         clearInterval(interval)
         interval = null
         button.innerText = 'Play'
@@ -128,13 +132,35 @@ let {playAnimation, pauseAnimation} = (function() {
         let newState = Math.min(1, lastState + delta)
         setState(newState)
 
-        if (newState >= 1)
+        if (newState >= 1) {
             pauseAnimation()
+            button.innerText = 'Restart'
+        }
         
         lastTick = now
         lastState = newState
     }
 })()
 
-setState(0.5)
+// Selecting using the range input
+rangeInput.addEventListener('input', () => {
+    pauseAnimation()
+    setState(+rangeInput.value)
+})
+
+// Initial setup
+setState(0.0)
 pauseAnimation()
+
+// Activate animation when range is first scrolled into view. The callback checks for any intersection,
+// then starts the animation and disconnects the observer.
+let observer = new IntersectionObserver(function(entries, observer) {
+    for (let entry of entries) {
+        if (!entry.isIntersecting)
+            continue
+
+        playAnimation()
+        observer.disconnect()
+        return
+    }
+}).observe(rangeInput)

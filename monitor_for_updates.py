@@ -50,13 +50,14 @@ def maybe_download(resource_url: str):
         return
     
     with urllib.request.urlopen(resource_url) as f:
-        # Remove the BOM
-        content = f.read().decode('utf-8-sig').encode('utf-8')
+        content = f.read()
+        content = content.decode('cp1252')  # Some kind of Windows text encoding
+        content = content.encode('utf-8')
     
     with open(path, 'wb') as f:
         f.write(content)
     
-    logging.info("New file saved to %s", path)
+    logging.info("Downloaded %s, saved to %s", resource_url, path)
     
 
 while True:
