@@ -19,3 +19,8 @@ I use `pnpm`, but `npm` probably works too.
 
 The case data comes from <https://data.nsw.gov.au/nsw-covid-19-data/case-locations>.
 After downloading more case data, remove the byte order mark (eg open the JSON file in vim, type `:set nobomb` and save), and then update the JSON import in `index.ts`.
+Alternatively, there is a script which grabs the dataset metadata every 20 minutes and checks if there is a new file:
+
+    python3 monitor_for_updates.py | tee -a update_log
+
+This script automatically removes the BOM.

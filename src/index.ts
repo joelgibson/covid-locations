@@ -1,7 +1,7 @@
 import {CasesJSON, firstTime} from './cases'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
-import casesUntyped from './cases-2021-06-28.json'
+import casesUntyped from './covid-case-locations-20210629-0955.json'
 
 let cases = casesUntyped as CasesJSON
 
@@ -37,9 +37,11 @@ function insertionPoint(time: Date) {
 }
 
 let {setState, getState} = (function() {
-    // minTime corresponds to 0.0, maxTime to 1.0, and deltams is the number of milliseconds between them.
+    // minTime corresponds to 0.0
     let minTime = caseData[0].firstTime
-    let maxTime = caseData[caseData.length - 1].firstTime
+
+    // maxTime to 1.0. (Go six hours after the last datapoint, so we can see it properly).
+    let maxTime = new Date(caseData[caseData.length - 1].firstTime.getTime() + 1000 * 60 * 60 * 6)
     let deltams = maxTime.getTime() - minTime.getTime()
 
     // I/O
