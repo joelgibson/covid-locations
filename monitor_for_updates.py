@@ -51,7 +51,8 @@ def maybe_download(resource_url: str):
     
     with urllib.request.urlopen(resource_url) as f:
         content = f.read()
-        content = content.decode('cp1252')  # Some kind of Windows text encoding
+        #content = content.decode('cp1252')  # Some kind of Windows text encoding
+        content = content.decode('utf-8-sig')
         content = content.encode('utf-8')
     
     with open(path, 'wb') as f:

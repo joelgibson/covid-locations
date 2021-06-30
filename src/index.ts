@@ -1,7 +1,7 @@
 import {CasesJSON, firstTime} from './cases'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
-import casesUntyped from './covid-case-locations-20210629-1100.json'
+import casesUntyped from './covid-case-locations-20210630-200.json'
 
 let cases = casesUntyped as CasesJSON
 
