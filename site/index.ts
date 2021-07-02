@@ -1,14 +1,28 @@
-import {CasesJSON, firstTime} from './cases'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
-import casesUntyped from './covid-case-locations-20210630-200.json'
 
-let cases = casesUntyped as CasesJSON
+import casesJson from './cases.json'
 
-// Extract the case data, merge in the "firstTime", and sort by increasing firstTime.
-let caseData = cases.data.monitor
-    .map(data => ({...data, firstTime: firstTime(data)}))
-    .sort((a, b) => a.firstTime.getTime() - b.firstTime.getTime())
+type Case = {
+    Venue: string
+    Address: string
+    Suburb: string
+    Time: String
+    Date: String
+    Lon: number
+    Lat: number
+    startTime: Date
+    endTime: Date
+}
+let casesData: Case[] = casesJson
+    .map((dat) => ({
+        ...dat,
+        Lon: +dat.Lon,
+        Lat: +dat.Lat,
+        startTime: new Date(dat.startTime),
+        endTime: new Date(dat.endTime),
+    }))
+    .sort((a, b) => a.startTime.getTime() - b.startTime.getTime())
 
 // Create a map centred on Sydney.
 let map = L.map('mapid').setView([-33.88478871765595, 151.2260430608038], 12);
@@ -19,29 +33,29 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Create a marker object for each case, not yet added to the map.
 // The tooltip should be the date, time, and location.
-let markers = caseData.map(data => {
+let markers = casesData.map(data => {
     return L.circleMarker([+data.Lat, +data.Lon], {radius: 10})
         .bindTooltip(`${data.Date}, ${data.Time}\n${data.Venue}`)
 })
-let bigMarkers = caseData.map(data => L.circleMarker([+data.Lat, +data.Lon], {radius: 50, fill: false, color: 'red'}))
+let bigMarkers = casesData.map(data => L.circleMarker([+data.Lat, +data.Lon], {radius: 50, fill: false, color: 'red'}))
 bigMarkers.forEach(marker => marker.addTo(map))
 
-// Given a time, return the index i so that caseData[0], ..., caseData[i-1] are all
+// Given a time, return the index i so that casesData[0], ..., casesData[i-1] are all
 // less than time.
 function insertionPoint(time: Date) {
-    for (let i = 0; i < caseData.length; i++)
-        if (caseData[i].firstTime.getTime() >= time.getTime())
+    for (let i = 0; i < casesData.length; i++)
+        if (casesData[i].startTime.getTime() >= time.getTime())
             return i
     
-    return caseData.length
+    return casesData.length
 }
 
 let {setState, getState, rangeInput} = (function() {
     // minTime corresponds to 0.0
-    let minTime = caseData[0].firstTime
+    let minTime = casesData[0].startTime
 
     // maxTime to 1.0. (Go six hours after the last datapoint, so we can see it properly).
-    let maxTime = new Date(caseData[caseData.length - 1].firstTime.getTime() + 1000 * 60 * 60 * 6)
+    let maxTime = new Date(casesData[casesData.length - 1].startTime.getTime() + 1000 * 60 * 60 * 6)
     let deltams = maxTime.getTime() - minTime.getTime()
 
     // I/O
@@ -76,7 +90,7 @@ let {setState, getState, rangeInput} = (function() {
         // Set the opacity of the big markers to zero unless they are less than a day behind the current time.
         // For those that are within a day behind, scale their size and opacity appropriately.
         for (let i = 0; i < bigMarkers.length; i++) {
-            let days = (newTime.getTime() - caseData[i].firstTime.getTime()) / (1000 * 60 * 60 * 24)
+            let days = (newTime.getTime() - casesData[i].startTime.getTime()) / (1000 * 60 * 60 * 24)
             bigMarkers[i].setRadius(40 / (1 + days))
             bigMarkers[i].setStyle({opacity: (days >= 0) ? Math.max(0, 1 - days) : 0})
         }

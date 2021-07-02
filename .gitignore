@@ -1,4 +1,5 @@
 dist
 node_modules
-update_log
-src/*.sorted
+hidden
+data/update_log
+__pycache__

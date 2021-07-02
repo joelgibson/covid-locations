@@ -40,10 +40,10 @@ def fetch_resource_url():
 def maybe_download(resource_url: str):
     """
     Take the last part of the URL, for example 'covid-case-locations-20210628-2313.json'. If this file already
-    exists inside 'src/', then do nothing. Otherwise, download whatever is at the full URL to src/.
+    exists inside 'json/', then do nothing. Otherwise, download whatever is at the full URL to json/.
     """
     _, filename = resource_url.rsplit('/', 1)
-    path = pathlib.Path('src', filename)
+    path = pathlib.Path('json', filename)
 
     if path.exists():
         logging.info("The file %s exists, doing nothing.", path)

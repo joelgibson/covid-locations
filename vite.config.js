@@ -1,4 +1,4 @@
 export default {
-    // Force relative paths
-    base: '',
+    root: 'site',
+    base: '', // Force relative paths
 }
