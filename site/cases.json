@@ -77,6 +77,17 @@
   "endTime": "2021-06-20T13:30:00"
  },
  {
+  "Venue": "ALDI Eastegate, Bondi Junction Supermarket",
+  "Address": "Eastgate Shopping Centre, Spring St and Newland St",
+  "Suburb": "Bondi Junction",
+  "Time": "4pm to 4:20pm",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.248674704141",
+  "Lat": "-33.893189575624",
+  "startTime": "2021-06-26T15:00:00",
+  "endTime": "2021-06-26T15:20:00"
+ },
+ {
   "Venue": "ANZ Branch (York and Market) Sydney",
   "Address": "Corner of York and Market Street",
   "Suburb": "Sydney",
@@ -174,6 +185,17 @@
   "Lat": "-33.8552115112014",
   "startTime": "2021-06-15T12:35:00",
   "endTime": "2021-06-15T12:45:00"
+ },
+ {
+  "Venue": "Aldi Auburn Supermarket",
+  "Address": "6/10 Harrow Road",
+  "Suburb": "Auburn",
+  "Time": "5:35pm to 5:45pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.031874844993",
+  "Lat": "-33.8520870045411",
+  "startTime": "2021-06-29T16:35:00",
+  "endTime": "2021-06-29T16:45:00"
  },
  {
   "Venue": "Aldi Eastgate Bondi Junction",
@@ -352,6 +374,17 @@
   "endTime": "2021-06-28T11:10:00"
  },
  {
+  "Venue": "Australia Post Office",
+  "Address": "Shop 9, 20 Evans Avenue",
+  "Suburb": "Eastlakes",
+  "Time": "1pm to 2pm",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.21199993753",
+  "Lat": "-33.9252326108025",
+  "startTime": "2021-06-30T12:00:00",
+  "endTime": "2021-06-30T13:00:00"
+ },
+ {
   "Venue": "Australia Post Office Bondi Beach",
   "Address": "31 Hall Street",
   "Suburb": "Bondi Beach",
@@ -361,6 +394,17 @@
   "Lat": "-33.8902838440052",
   "startTime": "2021-06-21T13:00:00",
   "endTime": "2021-06-21T13:30:00"
+ },
+ {
+  "Venue": "Avalons Organic",
+  "Address": "25 Avalon Parade",
+  "Suburb": "Avalon Beach",
+  "Time": "3pm to 4pm",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.329861677678",
+  "Lat": "-33.6365506672384",
+  "startTime": "2021-06-26T14:00:00",
+  "endTime": "2021-06-26T15:00:00"
  },
  {
   "Venue": "BP Kingsrove",
@@ -693,6 +737,17 @@
   "endTime": "2021-06-24T21:00:00"
  },
  {
+  "Venue": "Bite Box Kebabs",
+  "Address": "164 Campbell Parade",
+  "Suburb": "Bondi Beach",
+  "Time": "6pm to 7pm",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.274733354105",
+  "Lat": "-33.8901570634671",
+  "startTime": "2021-06-26T17:00:00",
+  "endTime": "2021-06-26T18:00:00"
+ },
+ {
   "Venue": "Black and Gold Espresso",
   "Address": "29-33 Epsom Road",
   "Suburb": "Roseberry",
@@ -852,8 +907,8 @@
   "Suburb": "Hillsdale",
   "Time": "4pm to 4:30pm",
   "Date": "Friday 25 June 2021",
-  "Lon": "151.224511635719",
-  "Lat": "-33.9486802173489",
+  "Lon": "151.224462339721",
+  "Lat": "-33.949221180634",
   "startTime": "2021-06-25T15:00:00",
   "endTime": "2021-06-25T15:30:00"
  },
@@ -863,10 +918,21 @@
   "Suburb": "Hillsdale",
   "Time": "4pm to 4:30pm",
   "Date": "Friday 25 June 2021",
-  "Lon": "151.224462339721",
-  "Lat": "-33.949221180634",
+  "Lon": "151.224511635719",
+  "Lat": "-33.9486802173489",
   "startTime": "2021-06-25T15:00:00",
   "endTime": "2021-06-25T15:30:00"
+ },
+ {
+  "Venue": "Bunnings Kirrawee",
+  "Address": "127-141 Bath Road",
+  "Suburb": "Kirrawee",
+  "Time": "1pm to 1:15pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.075676524175",
+  "Lat": "-34.0302407713539",
+  "startTime": "2021-06-29T12:00:00",
+  "endTime": "2021-06-29T12:15:00"
  },
  {
   "Venue": "Bunnings Randwick",
@@ -878,6 +944,28 @@
   "Lat": "-33.9082536653409",
   "startTime": "2021-06-23T09:00:00",
   "endTime": "2021-06-23T09:30:00"
+ },
+ {
+  "Venue": "Bunnings Taren Point",
+  "Address": "Koonya Circuit",
+  "Suburb": "Caringbah",
+  "Time": "1pm to 1:30pm",
+  "Date": "Sunday 27 June 2021",
+  "Lon": "151.129851229295",
+  "Lat": "-34.0258830238969",
+  "startTime": "2021-06-27T12:00:00",
+  "endTime": "2021-06-27T12:30:00"
+ },
+ {
+  "Venue": "Bunnings Villawood",
+  "Address": "Corner Tangerine and Woodville Roads",
+  "Suburb": "Villawood",
+  "Time": "2:05pm to 2:35pm",
+  "Date": "Monday 28 June 2021",
+  "Lon": "150.979068086815",
+  "Lat": "-33.8778713797692",
+  "startTime": "2021-06-28T13:05:00",
+  "endTime": "2021-06-28T13:35:00"
  },
  {
   "Venue": "Burger and Salad Haus",
@@ -1144,6 +1232,17 @@
   "endTime": "2021-06-26T11:45:00"
  },
  {
+  "Venue": "Chemist Warehouse",
+  "Address": "Strathfield Plaza, 11 The Boulevarde",
+  "Suburb": "Strathfield",
+  "Time": "12pm to 12:25pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.09328118135",
+  "Lat": "-33.8727316789525",
+  "startTime": "2021-06-29T12:00:00",
+  "endTime": "2021-06-29T12:25:00"
+ },
+ {
   "Venue": "Chemist Warehouse - Birkenhead Point Brand Outlet",
   "Address": "19 Roseby Street",
   "Suburb": "Drummoyne",
@@ -1153,6 +1252,17 @@
   "Lat": "-33.8553718957677",
   "startTime": "2021-06-15T12:05:00",
   "endTime": "2021-06-15T12:20:00"
+ },
+ {
+  "Venue": "Chemist Warehouse Avalon",
+  "Address": "1/74 Old Barrenjoey Road",
+  "Suburb": "Avalon Beach",
+  "Time": "3pm to 4pm",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.33040653739",
+  "Lat": "-33.6359889057914",
+  "startTime": "2021-06-26T14:00:00",
+  "endTime": "2021-06-26T15:00:00"
  },
  {
   "Venue": "Chemist Warehouse Bondi Beach",
@@ -1351,6 +1461,17 @@
   "Lat": "-33.940615433091",
   "startTime": "2021-06-23T17:00:00",
   "endTime": "2021-06-23T17:15:00"
+ },
+ {
+  "Venue": "Coles Bondi Eastgate",
+  "Address": "Eastgate Shopping Centre, Spring St and Newland St",
+  "Suburb": "",
+  "Time": "7:30am to 7:50am",
+  "Date": "Friday 25 June 2021",
+  "Lon": "151.248674704141",
+  "Lat": "-33.893189575624",
+  "startTime": "2021-06-25T07:30:00",
+  "endTime": "2021-06-25T07:50:00"
  },
  {
   "Venue": "Coles East Village Shopping Centre",
@@ -1804,6 +1925,17 @@
   "endTime": "2021-06-25T16:00:00"
  },
  {
+  "Venue": "Cure Caf\u00e9",
+  "Address": "2-18 Greenacre Road",
+  "Suburb": "South Hurstville",
+  "Time": "9:30am to 10:30am",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.104107349702",
+  "Lat": "-33.9777431312323",
+  "startTime": "2021-06-29T09:30:00",
+  "endTime": "2021-06-29T10:30:00"
+ },
+ {
   "Venue": "Daiso Bondi Junction",
   "Address": "430 Oxford Street",
   "Suburb": "Bondi Junction",
@@ -1925,6 +2057,17 @@
   "endTime": "2021-06-24T14:45:00"
  },
  {
+  "Venue": "East Avenue Caf\u00e9",
+  "Address": "20 Oatley Avenue",
+  "Suburb": "Oatley",
+  "Time": "10am to 10:30am",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.081784972259",
+  "Lat": "-33.9806118146952",
+  "startTime": "2021-06-28T10:00:00",
+  "endTime": "2021-06-28T10:30:00"
+ },
+ {
   "Venue": "East Village Shopping Centre",
   "Address": "East Village 4 Defries Avenue ",
   "Suburb": "Zetland",
@@ -1958,6 +2101,28 @@
   "endTime": "2021-06-24T18:40:00"
  },
  {
+  "Venue": "Eastern Creek Quarter - Fruitworld",
+  "Address": "159 Rooty Hill Road",
+  "Suburb": "Eastern Creek",
+  "Time": "10:40am to 11am",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "150.854360778023",
+  "Lat": "-33.7838982923549",
+  "startTime": "2021-06-29T10:40:00",
+  "endTime": "2021-06-29T11:00:00"
+ },
+ {
+  "Venue": "Eastern Creek Quarter - rest of shopping centre",
+  "Address": "159 Rooty Hill Road",
+  "Suburb": "Eastern Creek",
+  "Time": "10:40am to 11am",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "150.854360778023",
+  "Lat": "-33.7838982923549",
+  "startTime": "2021-06-29T10:40:00",
+  "endTime": "2021-06-29T11:00:00"
+ },
+ {
   "Venue": "Eastgate Bondi Junction - Ground floor food court",
   "Address": "71-91 Spring Street",
   "Suburb": "Bondi Junction",
@@ -1967,6 +2132,17 @@
   "Lat": "-33.8928585",
   "startTime": "2021-06-14T11:15:00",
   "endTime": "2021-06-14T11:25:00"
+ },
+ {
+  "Venue": "Eastlakes Shopping Centre",
+  "Address": "19a Evans Avenue",
+  "Suburb": "Eastlakes",
+  "Time": "1pm to 2pm",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.211485051812",
+  "Lat": "-33.9250178974548",
+  "startTime": "2021-06-30T12:00:00",
+  "endTime": "2021-06-30T13:00:00"
  },
  {
   "Venue": "Elixr Health Club - Bondi Junction",
@@ -2022,6 +2198,17 @@
   "Lat": "-33.9111453071457",
   "startTime": "2021-06-24T06:15:00",
   "endTime": "2021-06-24T07:00:00"
+ },
+ {
+  "Venue": "Exquisite Brows and Spa",
+  "Address": "Shop 20-B Ground Level, 20B/34 Victoria Road",
+  "Suburb": "Marrickville",
+  "Time": "9am to 5pm",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.17213190409",
+  "Lat": "-33.9066331494226",
+  "startTime": "2021-06-26T09:00:00",
+  "endTime": "2021-06-26T16:00:00"
  },
  {
   "Venue": "Female Toilets beside Lotus Restaurant",
@@ -2167,6 +2354,17 @@
   "endTime": "2021-06-22T13:00:00"
  },
  {
+  "Venue": "Flame Coal Chicken",
+  "Address": "8/14 Greenacre Road",
+  "Suburb": "South Hurstville",
+  "Time": "5:30pm to 6:30pm",
+  "Date": "Sunday 27 June 2021",
+  "Lon": "151.11299955724",
+  "Lat": "-33.9743772864782",
+  "startTime": "2021-06-27T16:30:00",
+  "endTime": "2021-06-27T17:30:00"
+ },
+ {
   "Venue": "Fonda Mexican Restaurant",
   "Address": "85 Hall Street",
   "Suburb": "Bondi Beach",
@@ -2286,6 +2484,17 @@
   "Lat": "-33.8738969219152",
   "startTime": "2021-06-26T15:45:00",
   "endTime": "2021-06-26T16:20:00"
+ },
+ {
+  "Venue": "Fresh Quality Fruit and Vegetables ",
+  "Address": "2/40 Haldon Sttreet",
+  "Suburb": "Lakemba",
+  "Time": "11:20am to 11:40am",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.076440980503",
+  "Lat": "-33.9189857779515",
+  "startTime": "2021-06-30T11:20:00",
+  "endTime": "2021-06-30T11:40:00"
  },
  {
   "Venue": "Fruit World fruit shop - Pacific Square",
@@ -3223,6 +3432,17 @@
   "endTime": "2021-06-24T17:25:00"
  },
  {
+  "Venue": "Marrickville Metro Shopping Centre",
+  "Address": "20 Smidmore Street",
+  "Suburb": "Marrickville",
+  "Time": "9am to 5pm",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.172428323029",
+  "Lat": "-33.9065214128164",
+  "startTime": "2021-06-26T09:00:00",
+  "endTime": "2021-06-26T16:00:00"
+ },
+ {
   "Venue": "Mascot Central Shopping Precinct",
   "Address": "Etherden Walk",
   "Suburb": "Mascot",
@@ -3597,6 +3817,17 @@
   "endTime": "2021-06-26T12:00:00"
  },
  {
+  "Venue": "Novotel Manly - Bistro",
+  "Address": "55N Steyne",
+  "Suburb": "Manly",
+  "Time": "9am to 5pm",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.287769673158",
+  "Lat": "-33.795233268807",
+  "startTime": "2021-06-26T09:00:00",
+  "endTime": "2021-06-26T16:00:00"
+ },
+ {
   "Venue": "Oakberry Acai",
   "Address": "Shop 1/82-92 Gould Street",
   "Suburb": "Bondi Beach",
@@ -3859,6 +4090,17 @@
   "Lat": "-33.865780383975",
   "startTime": "2021-06-21T12:50:00",
   "endTime": "2021-06-21T13:10:00"
+ },
+ {
+  "Venue": "Panetta Mercato Marrickville",
+  "Address": "Shop G023, Marrickville Metro, 20 Smidmore Street",
+  "Suburb": "Marrickville",
+  "Time": "3:45pm to 4:30pm",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.171806052725",
+  "Lat": "-33.9066015648218",
+  "startTime": "2021-06-26T14:45:00",
+  "endTime": "2021-06-26T15:30:00"
  },
  {
   "Venue": "Papaya - Birkenhead Point Brand Outlet",
@@ -4444,6 +4686,39 @@
   "endTime": "2021-06-14T14:00:00"
  },
  {
+  "Venue": "Strathfield Plaza",
+  "Address": "11 The Boulevard",
+  "Suburb": "Strathfield",
+  "Time": "10:55am to 11:15am",
+  "Date": "Sunday 27 June 2021",
+  "Lon": "151.093549402198",
+  "Lat": "-33.8727227660038",
+  "startTime": "2021-06-27T10:55:00",
+  "endTime": "2021-06-27T11:15:00"
+ },
+ {
+  "Venue": "Strathfield Plaza",
+  "Address": "11 The Boulevard",
+  "Suburb": "Strathfield",
+  "Time": "11:45pm to 12:35pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.093549402198",
+  "Lat": "-33.8727227660038",
+  "startTime": "2021-06-29T22:45:00",
+  "endTime": "2021-06-29T12:35:00"
+ },
+ {
+  "Venue": "Strathfield Plaza Medical Practice",
+  "Address": "11-23 Boulevarde",
+  "Suburb": "Strathfield",
+  "Time": "1:30pm to 2:10pm",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.093227538589",
+  "Lat": "-33.8727851274147",
+  "startTime": "2021-06-28T12:30:00",
+  "endTime": "2021-06-28T13:10:00"
+ },
+ {
   "Venue": "Supa IGA Blaxland",
   "Address": "150-152 Great Western Highway",
   "Suburb": "Blaxland",
@@ -4519,6 +4794,17 @@
   "Lat": "-33.9342651929866",
   "startTime": "2021-06-26T14:00:00",
   "endTime": "2021-06-26T14:30:00"
+ },
+ {
+  "Venue": "Sydney Growers Market Building D",
+  "Address": "250-318 Parramatta Road",
+  "Suburb": "Homebush",
+  "Time": "4pm to 5pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.073012441096",
+  "Lat": "-33.8607551458712",
+  "startTime": "2021-06-29T15:00:00",
+  "endTime": "2021-06-29T16:00:00"
  },
  {
   "Venue": "TAFE NSW Meadowbank Campus",
@@ -4640,6 +4926,39 @@
   "Lat": "-33.8939862",
   "startTime": "2021-06-21T16:10:00",
   "endTime": "2021-06-21T16:25:00"
+ },
+ {
+  "Venue": "The Coffee Emporium",
+  "Address": "Shop 242, Centro Roselands Shopping Centre, Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "7:40am to 8:10am",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.069484351375",
+  "Lat": "-33.9359452252771",
+  "startTime": "2021-06-28T07:40:00",
+  "endTime": "2021-06-28T08:10:00"
+ },
+ {
+  "Venue": "The Coffee Emporium",
+  "Address": "Shop 242, Centro Roselands Shopping Centre, Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "7:40am to 8:10am",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.069484351375",
+  "Lat": "-33.9359452252771",
+  "startTime": "2021-06-29T07:40:00",
+  "endTime": "2021-06-29T08:10:00"
+ },
+ {
+  "Venue": "The Coffee Emporium",
+  "Address": "Shop 242, Centro Roselands Shopping Centre, Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "7:40am to 8:10am",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.069484351375",
+  "Lat": "-33.9359452252771",
+  "startTime": "2021-06-30T07:40:00",
+  "endTime": "2021-06-30T08:10:00"
  },
  {
   "Venue": "The Cosmopolitan",
@@ -4860,6 +5179,17 @@
   "Lat": "-33.8747363388249",
   "startTime": "2021-06-22T14:05:00",
   "endTime": "2021-06-22T14:45:00"
+ },
+ {
+  "Venue": "Volkswagon Rockdale",
+  "Address": "589 Princes Highway",
+  "Suburb": "Rockdale",
+  "Time": "",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.138430256018",
+  "Lat": "-33.9555706470078",
+  "startTime": "2021-06-28T00:00:00",
+  "endTime": "2021-06-29T00:00:00"
  },
  {
   "Venue": "Wax Car Wash Cafe",
@@ -5137,6 +5467,17 @@
   "endTime": "2021-06-24T19:00:00"
  },
  {
+  "Venue": "Woolworths Matraville",
+  "Address": "497-501 Bunnerong Road",
+  "Suburb": "Matraville",
+  "Time": "2pm to 3pm",
+  "Date": "Sunday 27 June 2021",
+  "Lon": "151.231951071107",
+  "Lat": "-33.9577068602649",
+  "startTime": "2021-06-27T13:00:00",
+  "endTime": "2021-06-27T14:00:00"
+ },
+ {
   "Venue": "Woolworths Metro Bondi Beach",
   "Address": "184 Campbell Parade",
   "Suburb": "Bondi Beach",
@@ -5245,6 +5586,17 @@
   "Lat": "-34.0695466985765",
   "startTime": "2021-06-20T09:30:00",
   "endTime": "2021-06-20T11:30:00"
+ },
+ {
+  "Venue": "Woolworths Strathfield Plaza",
+  "Address": "11 The Boulevard",
+  "Suburb": "Strathfield",
+  "Time": "11am to 11:10am",
+  "Date": "Sunday 27 June 2021",
+  "Lon": "151.093699451646",
+  "Lat": "-33.8727653443946",
+  "startTime": "2021-06-27T11:00:00",
+  "endTime": "2021-06-27T11:10:00"
  },
  {
   "Venue": "Woolworths Top Ryde Shopping Centre",

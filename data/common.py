@@ -4,6 +4,7 @@ import datetime
 import functools
 import json
 import re
+import sys
 from typing import List, Tuple
 
 def extract_dates(string: str) -> List[datetime.date]:
@@ -62,18 +63,24 @@ class Case:
     def start_time(self):
         """Find the first instant referenced here."""
         date = extract_dates(self.Date)[0]
-        if self.Time == 'All day':
+        if self.Time == 'All day' or self.Time == '':
             return datetime.datetime(date.year, date.month, date.day, 0, 0)
         
-        hours, minutes = extract_times(self.Time)[0]
+        try:
+            hours, minutes = extract_times(self.Time)[0]
+        except IndexError as e:
+            print(f"Error wile extracting time from {self.Time!r} in {self}", file=sys.stderr)
+            raise e
+        
         return datetime.datetime(date.year, date.month, date.day, hours, minutes)
     
     @functools.cached_property
     def end_time(self):
         """Find the last instant referenced here."""
         date = extract_dates(self.Date)[-1]
-        if self.Time == 'All day':
+        if self.Time == 'All day' or self.Time == '':
             return datetime.datetime(date.year, date.month, date.day, 0, 0) + datetime.timedelta(days=1)
+            
         hours, minutes = extract_times(self.Time)[-1]
         return datetime.datetime(date.year, date.month, date.day, hours, minutes)
 
