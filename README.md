@@ -46,5 +46,5 @@ Then to use a heuristic to find any retired cases, run
 Each new entry should be checked visually using a diffing tool, for example `tkdiff casefiles/2021-07-02T12:28 casefiles/2021-07-02T14:30`.
 Finally, the retired cases can be combined with the last casefile by running
 
-    python3 generate_clean_json.py retired casefiles/2021-07-02T17:18 > ../site/cases.json
+    python3 generate_clean_json.py retired casefiles/2021-07-04T23:00 > ../site/cases.json
 

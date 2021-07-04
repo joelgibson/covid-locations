@@ -77,7 +77,7 @@
   "endTime": "2021-06-20T13:30:00"
  },
  {
-  "Venue": "ALDI Eastegate, Bondi Junction Supermarket",
+  "Venue": "ALDI Eastgate Bondi Junction",
   "Address": "Eastgate Shopping Centre, Spring St and Newland St",
   "Suburb": "Bondi Junction",
   "Time": "4pm to 4:20pm",
@@ -188,7 +188,7 @@
  },
  {
   "Venue": "Aldi Auburn Supermarket",
-  "Address": "6/10 Harrow Road",
+  "Address": "Auburn Central 57-59 Queen St",
   "Suburb": "Auburn",
   "Time": "5:35pm to 5:45pm",
   "Date": "Tuesday 29 June 2021",
@@ -196,6 +196,17 @@
   "Lat": "-33.8520870045411",
   "startTime": "2021-06-29T16:35:00",
   "endTime": "2021-06-29T16:45:00"
+ },
+ {
+  "Venue": "Aldi Bonnyrigg",
+  "Address": "718 Cabramatta Road W",
+  "Suburb": "Bonnyrigg",
+  "Time": "6pm to 6:30pm",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "150.890092693898",
+  "Lat": "-33.8931400055281",
+  "startTime": "2021-06-30T17:00:00",
+  "endTime": "2021-06-30T17:30:00"
  },
  {
   "Venue": "Aldi Eastgate Bondi Junction",
@@ -218,6 +229,17 @@
   "Lat": "-33.8928585",
   "startTime": "2021-06-14T11:20:00",
   "endTime": "2021-06-14T11:50:00"
+ },
+ {
+  "Venue": "Aldi Lakemba",
+  "Address": "212-226 Haldon Street",
+  "Suburb": "Lakemba",
+  "Time": "11:30am to 11:45am",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.079685790169",
+  "Lat": "-33.9242800227171",
+  "startTime": "2021-06-30T11:30:00",
+  "endTime": "2021-06-30T11:45:00"
  },
  {
   "Venue": "Alexandria industrial complex - 32 Ralph St ",
@@ -243,6 +265,17 @@
  },
  {
   "Venue": "Allied Mart",
+  "Address": "1/50 Macleay Street",
+  "Suburb": "Elizabeth Bay",
+  "Time": "10am to 11:30am",
+  "Date": "Sunday 20 June 2021",
+  "Lon": "151.225566806954",
+  "Lat": "-33.8719570928025",
+  "startTime": "2021-06-20T10:00:00",
+  "endTime": "2021-06-20T11:30:00"
+ },
+ {
+  "Venue": "Allied Mart",
   "Address": "1/50\u00a0Macleay Street",
   "Suburb": "Elizabeth Bay",
   "Time": "10am to 11:30am",
@@ -251,6 +284,17 @@
   "Lat": "-33.8719570928025",
   "startTime": "2021-06-20T10:00:00",
   "endTime": "2021-06-20T11:30:00"
+ },
+ {
+  "Venue": "Allied Mart",
+  "Address": "1/50\u00a0Macleay Street",
+  "Suburb": "Elizabeth Bay",
+  "Time": "10am to 11:30am",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.225566806954",
+  "Lat": "-33.8719570928025",
+  "startTime": "2021-06-28T10:00:00",
+  "endTime": "2021-06-28T11:30:00"
  },
  {
   "Venue": "Amart Furniture Bankstown",
@@ -286,7 +330,18 @@
   "endTime": "2021-06-24T14:35:00"
  },
  {
-  "Venue": "Ampol service station",
+  "Venue": "Ampol Woolworths Metro",
+  "Address": "237-245 Burns Bay Road",
+  "Suburb": "Lane Cove West",
+  "Time": "8am to 8:15am",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.152240773436",
+  "Lat": "-33.8163311970509",
+  "startTime": "2021-06-26T08:00:00",
+  "endTime": "2021-06-26T08:15:00"
+ },
+ {
+  "Venue": "Ampol service station Lane Cove",
   "Address": "237-245 Burns Bay Road",
   "Suburb": "Lane Cove",
   "Time": "1:45pm to 2pm",
@@ -322,11 +377,11 @@
   "Venue": "Auburn Central Auburn Central Pharmacy",
   "Address": "Corner of Queen Street and Harrow Road",
   "Suburb": "Auburn",
-  "Time": "10:5am to 10:35am",
+  "Time": "10:15am to 10:35am",
   "Date": "Monday 28 June 2021",
   "Lon": "151.031777868554",
   "Lat": "-33.8501436114731",
-  "startTime": "2021-06-28T10:05:00",
+  "startTime": "2021-06-28T10:15:00",
   "endTime": "2021-06-28T10:35:00"
  },
  {
@@ -353,6 +408,17 @@
  },
  {
   "Venue": "Auburn Central Sunshine Fruit",
+  "Address": "Corner Queen Street and Harrow Roads",
+  "Suburb": "Auburn",
+  "Time": "10am to 10:30am",
+  "Date": "Sunday 27 June 2021",
+  "Lon": "151.031989413463",
+  "Lat": "-33.8495678711991",
+  "startTime": "2021-06-27T10:00:00",
+  "endTime": "2021-06-27T10:30:00"
+ },
+ {
+  "Venue": "Auburn Central Sunshine Fruit",
   "Address": "Corner of Queen Street and Harrow Road",
   "Suburb": "Auburn",
   "Time": "11:05am to 11:25am",
@@ -361,6 +427,17 @@
   "Lat": "-33.8501436114731",
   "startTime": "2021-06-28T11:05:00",
   "endTime": "2021-06-28T11:25:00"
+ },
+ {
+  "Venue": "Auburn Central Sunshine Fruit",
+  "Address": "Corner Queen Street and Harrow Roads",
+  "Suburb": "Auburn",
+  "Time": "3:30pm to 4:30pm",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.031989413463",
+  "Lat": "-33.8495678711991",
+  "startTime": "2021-06-28T14:30:00",
+  "endTime": "2021-06-28T15:30:00"
  },
  {
   "Venue": "Auburn Central Woolworths",
@@ -372,6 +449,83 @@
   "Lat": "-33.8501436114731",
   "startTime": "2021-06-28T10:30:00",
   "endTime": "2021-06-28T11:10:00"
+ },
+ {
+  "Venue": "Auburn town centre",
+  "Address": "Auburn town centre",
+  "Suburb": "Auburn",
+  "Time": "All day",
+  "Date": "Sunday 27 June 2021",
+  "Lon": "151.032463278755",
+  "Lat": "-33.849969766464",
+  "startTime": "2021-06-27T00:00:00",
+  "endTime": "2021-06-28T00:00:00"
+ },
+ {
+  "Venue": "Auburn town centre",
+  "Address": "Auburn town centre",
+  "Suburb": "Auburn",
+  "Time": "All day",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.032463278755",
+  "Lat": "-33.849969766464",
+  "startTime": "2021-06-28T00:00:00",
+  "endTime": "2021-06-29T00:00:00"
+ },
+ {
+  "Venue": "Auburn town centre",
+  "Address": "Auburn town centre",
+  "Suburb": "Auburn",
+  "Time": "All day",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.032463278755",
+  "Lat": "-33.849969766464",
+  "startTime": "2021-06-29T00:00:00",
+  "endTime": "2021-06-30T00:00:00"
+ },
+ {
+  "Venue": "Auburn town centre",
+  "Address": "Auburn town centre",
+  "Suburb": "Auburn",
+  "Time": "All day",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.032463278755",
+  "Lat": "-33.849969766464",
+  "startTime": "2021-06-30T00:00:00",
+  "endTime": "2021-07-01T00:00:00"
+ },
+ {
+  "Venue": "Auburn town centre",
+  "Address": "Auburn town centre",
+  "Suburb": "Auburn",
+  "Time": "All day",
+  "Date": "Thursday 1 July 2021",
+  "Lon": "151.032463278755",
+  "Lat": "-33.849969766464",
+  "startTime": "2021-07-01T00:00:00",
+  "endTime": "2021-07-02T00:00:00"
+ },
+ {
+  "Venue": "Auburn town centre",
+  "Address": "Auburn town centre",
+  "Suburb": "Auburn",
+  "Time": "All day",
+  "Date": "Friday 2 July 2021",
+  "Lon": "151.032463278755",
+  "Lat": "-33.849969766464",
+  "startTime": "2021-07-02T00:00:00",
+  "endTime": "2021-07-03T00:00:00"
+ },
+ {
+  "Venue": "Auburn town centre",
+  "Address": "Auburn town centre",
+  "Suburb": "Auburn",
+  "Time": "All day",
+  "Date": "Saturday 3 July 2021",
+  "Lon": "151.032463278755",
+  "Lat": "-33.849969766464",
+  "startTime": "2021-07-03T00:00:00",
+  "endTime": "2021-07-04T00:00:00"
  },
  {
   "Venue": "Australia Post Office",
@@ -405,6 +559,17 @@
   "Lat": "-33.6365506672384",
   "startTime": "2021-06-26T14:00:00",
   "endTime": "2021-06-26T15:00:00"
+ },
+ {
+  "Venue": "BIG W Eastgardens ",
+  "Address": "152 Bunnerong Road",
+  "Suburb": "Pagewood",
+  "Time": "2:45pm to 3:15pm",
+  "Date": "Thursday 24 June 2021",
+  "Lon": "151.223566909972",
+  "Lat": "-33.9439313493351",
+  "startTime": "2021-06-24T13:45:00",
+  "endTime": "2021-06-24T14:15:00"
  },
  {
   "Venue": "BP Kingsrove",
@@ -471,6 +636,17 @@
   "Lat": "-33.9075913668436",
   "startTime": "2021-06-21T10:40:00",
   "endTime": "2021-06-21T11:00:00"
+ },
+ {
+  "Venue": "Bake Bar Double Bay",
+  "Address": "L/15 Kiaora Lane",
+  "Suburb": "Double Bay",
+  "Time": "11am to 11:30am",
+  "Date": "Sunday 20 June 2021",
+  "Lon": "151.243768641252",
+  "Lat": "-33.8773461349773",
+  "startTime": "2021-06-20T11:00:00",
+  "endTime": "2021-06-20T11:30:00"
  },
  {
   "Venue": "Bake Bar Rose Bay ",
@@ -649,6 +825,17 @@
   "endTime": "2021-06-15T10:25:00"
  },
  {
+  "Venue": "Bendos Premium Meats ",
+  "Address": "87 Great North Road",
+  "Suburb": "Five Dock",
+  "Time": "10:30am to 11:15am",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.129239381126",
+  "Lat": "-33.8694505628627",
+  "startTime": "2021-06-29T10:30:00",
+  "endTime": "2021-06-29T11:15:00"
+ },
+ {
   "Venue": "Bentley Restaurant",
   "Address": "27 O'Connell Street",
   "Suburb": "Sydney",
@@ -684,7 +871,7 @@
  {
   "Venue": "Big W Eastgardens ",
   "Address": "Westfield Eastgardens -152 Bunnerong Rd",
-  "Suburb": "Eastgardens",
+  "Suburb": "Pagewood",
   "Time": "11:30am to 11:40am",
   "Date": "Wednesday 23 June 2021",
   "Lon": "151.224419210885",
@@ -695,7 +882,7 @@
  {
   "Venue": "Big W Eastgardens ",
   "Address": "Westfield Eastgardens -152 Bunnerong Rd",
-  "Suburb": "Eastgardens",
+  "Suburb": "Pagewood",
   "Time": "12:30pm to 12:50pm",
   "Date": "Friday 25 June 2021",
   "Lon": "151.223510588789",
@@ -907,8 +1094,8 @@
   "Suburb": "Hillsdale",
   "Time": "4pm to 4:30pm",
   "Date": "Friday 25 June 2021",
-  "Lon": "151.224462339721",
-  "Lat": "-33.949221180634",
+  "Lon": "151.224511635719",
+  "Lat": "-33.9486802173489",
   "startTime": "2021-06-25T15:00:00",
   "endTime": "2021-06-25T15:30:00"
  },
@@ -918,8 +1105,8 @@
   "Suburb": "Hillsdale",
   "Time": "4pm to 4:30pm",
   "Date": "Friday 25 June 2021",
-  "Lon": "151.224511635719",
-  "Lat": "-33.9486802173489",
+  "Lon": "151.224462339721",
+  "Lat": "-33.949221180634",
   "startTime": "2021-06-25T15:00:00",
   "endTime": "2021-06-25T15:30:00"
  },
@@ -1309,6 +1496,28 @@
   "endTime": "2021-06-21T09:42:00"
  },
  {
+  "Venue": "Chemist Warehouse Drummoyne",
+  "Address": "Birkenhead point, 19 Rosebery Street",
+  "Suburb": "Drummoyne",
+  "Time": "9:45am to 10:30am",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.162668902191",
+  "Lat": "-33.855240378756",
+  "startTime": "2021-06-29T09:45:00",
+  "endTime": "2021-06-29T10:30:00"
+ },
+ {
+  "Venue": "Chemist Warehouse Five Dock",
+  "Address": "89 Great North Road",
+  "Suburb": "Five Dock",
+  "Time": "10:30am to 10:40am",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.129217937323",
+  "Lat": "-33.8693392800077",
+  "startTime": "2021-06-29T10:30:00",
+  "endTime": "2021-06-29T10:40:00"
+ },
+ {
   "Venue": "Chemist Warehouse George Street",
   "Address": "383 George Street",
   "Suburb": "Sydney",
@@ -1465,13 +1674,24 @@
  {
   "Venue": "Coles Bondi Eastgate",
   "Address": "Eastgate Shopping Centre, Spring St and Newland St",
-  "Suburb": "",
+  "Suburb": "Bondi Junction",
   "Time": "7:30am to 7:50am",
   "Date": "Friday 25 June 2021",
   "Lon": "151.248674704141",
   "Lat": "-33.893189575624",
   "startTime": "2021-06-25T07:30:00",
   "endTime": "2021-06-25T07:50:00"
+ },
+ {
+  "Venue": "Coles Clemton Village ",
+  "Address": "60 Charlotte Street ",
+  "Suburb": "Clemton Park",
+  "Time": "6:55pm to 7:20pm",
+  "Date": "Sunday 27 June 2021",
+  "Lon": "151.102664611873",
+  "Lat": "-33.9230428958367",
+  "startTime": "2021-06-27T17:55:00",
+  "endTime": "2021-06-27T18:20:00"
  },
  {
   "Venue": "Coles East Village Shopping Centre",
@@ -1617,6 +1837,17 @@
   "endTime": "2021-06-24T09:00:00"
  },
  {
+  "Venue": "Coles Five Dock",
+  "Address": "4/12 Garfield Street",
+  "Suburb": "Five Dock",
+  "Time": "8:30am to 9am",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.128601641585",
+  "Lat": "-33.8679923364416",
+  "startTime": "2021-06-29T08:30:00",
+  "endTime": "2021-06-29T09:00:00"
+ },
+ {
   "Venue": "Coles King Cross",
   "Address": "88/94 Darlinghurst Road",
   "Suburb": "Potts Point",
@@ -1626,6 +1857,39 @@
   "Lat": "-33.8752688536507",
   "startTime": "2021-06-21T19:00:00",
   "endTime": "2021-06-21T20:00:00"
+ },
+ {
+  "Venue": "Coles Maroubra Junction",
+  "Address": "Pacific Square, 737 Anzac Parade",
+  "Suburb": "Maroubra",
+  "Time": "7:10am to 8:20am",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.239273778191",
+  "Lat": "-33.9406154283718",
+  "startTime": "2021-06-28T07:10:00",
+  "endTime": "2021-06-28T08:20:00"
+ },
+ {
+  "Venue": "Coles Maroubra Junction",
+  "Address": "Pacific Square, 737 Anzac Parade",
+  "Suburb": "Maroubra",
+  "Time": "11pm to 11:45pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.239273778191",
+  "Lat": "-33.9406154283718",
+  "startTime": "2021-06-29T22:00:00",
+  "endTime": "2021-06-29T22:45:00"
+ },
+ {
+  "Venue": "Coles Marrickville Metro",
+  "Address": "51-55 Edinburgh Road",
+  "Suburb": "Marrickville",
+  "Time": "12:30pm to 1pm",
+  "Date": "Wednesday 23 June 2021",
+  "Lon": "151.171505865291",
+  "Lat": "-33.9071665410874",
+  "startTime": "2021-06-23T12:30:00",
+  "endTime": "2021-06-23T12:00:00"
  },
  {
   "Venue": "Coles Marrickville Metro",
@@ -1639,15 +1903,26 @@
   "endTime": "2021-06-24T15:00:00"
  },
  {
-  "Venue": "Coles Marrickville Metro Shopping Centre",
-  "Address": "51-55 Edinburgh Road",
-  "Suburb": "Marrickville",
-  "Time": "12:30pm to 1pm",
-  "Date": "Wednesday 23 June 2021",
-  "Lon": "151.171505865291",
-  "Lat": "-33.9071665410874",
-  "startTime": "2021-06-23T12:30:00",
-  "endTime": "2021-06-23T12:00:00"
+  "Venue": "Coles Parramatta Westfield",
+  "Address": "Campbell Street",
+  "Suburb": "Parramatta",
+  "Time": "5:45pm to 6:05pm",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.000082484627",
+  "Lat": "-33.8176897941623",
+  "startTime": "2021-06-30T16:45:00",
+  "endTime": "2021-06-30T17:05:00"
+ },
+ {
+  "Venue": "Coles Randwick Plaza",
+  "Address": "148 Belmore Road",
+  "Suburb": "Randwick",
+  "Time": "4:20pm to 4:50pm",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.240208995249",
+  "Lat": "-33.9160333902346",
+  "startTime": "2021-06-28T15:20:00",
+  "endTime": "2021-06-28T15:50:00"
  },
  {
   "Venue": "Coles Rose Bay ",
@@ -1670,6 +1945,28 @@
   "Lat": "-33.8655405099419",
   "startTime": "2021-06-26T14:25:00",
   "endTime": "2021-06-26T14:35:00"
+ },
+ {
+  "Venue": "Coles Rose Bay ",
+  "Address": "694 Old South Head Road",
+  "Suburb": "Rose Bay",
+  "Time": "11:20am to 11:40am",
+  "Date": "Sunday 27 June 2021",
+  "Lon": "151.279355789641",
+  "Lat": "-33.8655048560874",
+  "startTime": "2021-06-27T11:20:00",
+  "endTime": "2021-06-27T11:40:00"
+ },
+ {
+  "Venue": "Coles Roselands",
+  "Address": "Roselands Shopping Centre, 24 Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "7:45am to 7:50am",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.069103153176",
+  "Lat": "-33.9348734325873",
+  "startTime": "2021-06-30T07:45:00",
+  "endTime": "2021-06-30T07:50:00"
  },
  {
   "Venue": "Coles Top Ryde Shopping Centre",
@@ -1749,7 +2046,7 @@
   "endTime": "2021-06-17T15:50:00"
  },
  {
-  "Venue": "Coles Zetland, Shopping centre",
+  "Venue": "Coles Zetland Shopping centre",
   "Address": "O'Dea Avenue",
   "Suburb": "Zetland",
   "Time": "7:20pm to 7:40pm",
@@ -1769,6 +2066,39 @@
   "Lat": "-33.9370441345463",
   "startTime": "2021-06-23T13:00:00",
   "endTime": "2021-06-23T13:12:00"
+ },
+ {
+  "Venue": "Commonwealth Bank Roselands",
+  "Address": "Roselands Shopping Centre, 24 Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "8am to 5pm",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.069103153176",
+  "Lat": "-33.9348734325873",
+  "startTime": "2021-06-28T08:00:00",
+  "endTime": "2021-06-28T16:00:00"
+ },
+ {
+  "Venue": "Commonwealth Bank Roselands",
+  "Address": "Roselands Shopping Centre, 24 Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "8am to 5pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.069103153176",
+  "Lat": "-33.9348734325873",
+  "startTime": "2021-06-29T08:00:00",
+  "endTime": "2021-06-29T16:00:00"
+ },
+ {
+  "Venue": "Commonwealth Bank Roselands",
+  "Address": "Roselands Shopping Centre, 24 Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "8am to 3:30pm",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.069103153176",
+  "Lat": "-33.9348734325873",
+  "startTime": "2021-06-30T08:00:00",
+  "endTime": "2021-06-30T14:30:00"
  },
  {
   "Venue": "Contents International Design and Luxury Store",
@@ -1813,6 +2143,28 @@
   "Lat": "-33.9201233942045",
   "startTime": "2021-06-23T16:00:00",
   "endTime": "2021-06-23T16:30:00"
+ },
+ {
+  "Venue": "Costco Casula",
+  "Address": "20 Parkers Farm ",
+  "Suburb": "Casula",
+  "Time": "7:50pm to 9pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "150.878920913466",
+  "Lat": "-33.958894109283",
+  "startTime": "2021-06-29T18:50:00",
+  "endTime": "2021-06-29T20:00:00"
+ },
+ {
+  "Venue": "Country Growers",
+  "Address": "159-175 Church Street",
+  "Suburb": "Parramatta",
+  "Time": "5:35pm to 5:55pm",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.000372642298",
+  "Lat": "-33.8174144755484",
+  "startTime": "2021-06-30T16:35:00",
+  "endTime": "2021-06-30T16:55:00"
  },
  {
   "Venue": "Country Road - Birkenhead Point Brand Outlet",
@@ -1947,6 +2299,17 @@
   "endTime": "2021-06-16T12:30:00"
  },
  {
+  "Venue": "Dan Murphy's Gladesville",
+  "Address": "330 Victoria Road",
+  "Suburb": "Gladesville",
+  "Time": "3pm to 3:25pm",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.126297606572",
+  "Lat": "-33.8263197721897",
+  "startTime": "2021-06-26T14:00:00",
+  "endTime": "2021-06-26T14:25:00"
+ },
+ {
   "Venue": "David Jones Bondi Level 1",
   "Address": "500 Oxford Street",
   "Suburb": "Bondi Junction",
@@ -1967,6 +2330,17 @@
   "Lat": "-33.8742574871114",
   "startTime": "2021-06-21T10:00:00",
   "endTime": "2021-06-21T17:30:00"
+ },
+ {
+  "Venue": "David's Asian Food Supermarket ",
+  "Address": "82 S Parade ",
+  "Suburb": "Auburn",
+  "Time": "10:10am to 10:20am",
+  "Date": "Sunday 27 June 2021",
+  "Lon": "151.032938626958",
+  "Lat": "-33.8497801747019",
+  "startTime": "2021-06-27T10:10:00",
+  "endTime": "2021-06-27T10:20:00"
  },
  {
   "Venue": "Decathlon Tempe",
@@ -2000,6 +2374,17 @@
   "Lat": "-33.9503993367529",
   "startTime": "2021-06-25T10:45:00",
   "endTime": "2021-06-25T12:00:00"
+ },
+ {
+  "Venue": "Di Yuan Asian Groceries",
+  "Address": "Shopp 1-3 90-95 The Crescent",
+  "Suburb": "Homebush West",
+  "Time": "4:20pm to 4:30pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.071163411617",
+  "Lat": "-33.8651787634282",
+  "startTime": "2021-06-29T15:20:00",
+  "endTime": "2021-06-29T15:30:00"
  },
  {
   "Venue": "Dominos Pizza Merrylands",
@@ -2104,23 +2489,23 @@
   "Venue": "Eastern Creek Quarter - Fruitworld",
   "Address": "159 Rooty Hill Road",
   "Suburb": "Eastern Creek",
-  "Time": "10:40am to 11am",
+  "Time": "10:40am to 11:10am",
   "Date": "Tuesday 29 June 2021",
   "Lon": "150.854360778023",
   "Lat": "-33.7838982923549",
   "startTime": "2021-06-29T10:40:00",
-  "endTime": "2021-06-29T11:00:00"
+  "endTime": "2021-06-29T11:10:00"
  },
  {
   "Venue": "Eastern Creek Quarter - rest of shopping centre",
   "Address": "159 Rooty Hill Road",
   "Suburb": "Eastern Creek",
-  "Time": "10:40am to 11am",
+  "Time": "10:40am to 11:10am",
   "Date": "Tuesday 29 June 2021",
   "Lon": "150.854360778023",
   "Lat": "-33.7838982923549",
   "startTime": "2021-06-29T10:40:00",
-  "endTime": "2021-06-29T11:00:00"
+  "endTime": "2021-06-29T11:10:00"
  },
  {
   "Venue": "Eastgate Bondi Junction - Ground floor food court",
@@ -2244,6 +2629,17 @@
   "endTime": "2021-06-27T00:00:00"
  },
  {
+  "Venue": "First Choice Liquor Maroubra",
+  "Address": "48-58 Maroubra Road",
+  "Suburb": "Maroubra",
+  "Time": "4:30pm to 5pm",
+  "Date": "Friday 25 June 2021",
+  "Lon": "151.233068525935",
+  "Lat": "-33.940373337232",
+  "startTime": "2021-06-25T15:30:00",
+  "endTime": "2021-06-25T16:00:00"
+ },
+ {
   "Venue": "Fitness First Bond Street Platinum",
   "Address": "20 Bond Street",
   "Suburb": "Sydney",
@@ -2286,17 +2682,6 @@
   "Lat": "-33.8638112670298",
   "startTime": "2021-06-25T12:55:00",
   "endTime": "2021-06-25T12:15:00"
- },
- {
-  "Venue": "Fitness First Gym North Strathfield",
-  "Address": "Bakehouse Quarter 22 Georg St",
-  "Suburb": "North Strathfield",
-  "Time": "9am to 1:30pm",
-  "Date": "Friday 25 June 2021",
-  "Lon": "151.08796787619",
-  "Lat": "-33.8634774959777",
-  "startTime": "2021-06-25T09:00:00",
-  "endTime": "2021-06-25T12:30:00"
  },
  {
   "Venue": "Fitness First Maroubra",
@@ -2495,6 +2880,39 @@
   "Lat": "-33.9189857779515",
   "startTime": "2021-06-30T11:20:00",
   "endTime": "2021-06-30T11:40:00"
+ },
+ {
+  "Venue": "Fruit World Roselands",
+  "Address": "Roselands Shopping Centre, 24 Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "1:55pm to 2:05pm",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.069103153176",
+  "Lat": "-33.9348734325873",
+  "startTime": "2021-06-28T12:55:00",
+  "endTime": "2021-06-28T13:05:00"
+ },
+ {
+  "Venue": "Fruit World Roselands",
+  "Address": "Roselands Shopping Centre, 24 Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "1:55pm to 2:05pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.069103153176",
+  "Lat": "-33.9348734325873",
+  "startTime": "2021-06-29T12:55:00",
+  "endTime": "2021-06-29T13:05:00"
+ },
+ {
+  "Venue": "Fruit World Roselands",
+  "Address": "Roselands Shopping Centre, 24 Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "1:55pm to 2:05pm",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.069103153176",
+  "Lat": "-33.9348734325873",
+  "startTime": "2021-06-30T12:55:00",
+  "endTime": "2021-06-30T13:05:00"
  },
  {
   "Venue": "Fruit World fruit shop - Pacific Square",
@@ -2706,6 +3124,17 @@
   "endTime": "2021-06-24T10:30:00"
  },
  {
+  "Venue": "Hamro Asan Bazarr",
+  "Address": "Shop 6 8-10 Northumberland Road ",
+  "Suburb": "Auburn",
+  "Time": "3:30pm to 4:30pm",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.033538728804",
+  "Lat": "-33.8487207661209",
+  "startTime": "2021-06-28T14:30:00",
+  "endTime": "2021-06-28T15:30:00"
+ },
+ {
   "Venue": "Happyfield ",
   "Address": "96 Ramsay Streey",
   "Suburb": "Haberfield",
@@ -2770,6 +3199,17 @@
   "Lat": "-33.8918719095206",
   "startTime": "2021-06-25T11:00:00",
   "endTime": "2021-06-25T11:40:00"
+ },
+ {
+  "Venue": "Hop Hung Asian Grocery",
+  "Address": "38C Haldon Street",
+  "Suburb": "Lakemba",
+  "Time": "11:20am to 11:40am",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.076415715407",
+  "Lat": "-33.9186423698586",
+  "startTime": "2021-06-30T11:20:00",
+  "endTime": "2021-06-30T11:40:00"
  },
  {
   "Venue": "Hugos Manly",
@@ -2869,17 +3309,6 @@
   "Lat": "-33.8913548555159",
   "startTime": "2021-06-25T11:30:00",
   "endTime": "2021-06-25T11:40:00"
- },
- {
-  "Venue": "Jarern Chai Asian Grocer",
-  "Address": "425 Pitt Street",
-  "Suburb": "Haymarket",
-  "Time": "1:10pm to 1:25pm",
-  "Date": "Friday 25 June 2021",
-  "Lon": "151.2048704",
-  "Lat": "-33.8784084",
-  "startTime": "2021-06-25T12:10:00",
-  "endTime": "2021-06-25T12:25:00"
  },
  {
   "Venue": "Jarern Chai Grocer and Boon Cafe",
@@ -3003,11 +3432,22 @@
   "endTime": "2021-06-24T00:00:00"
  },
  {
+  "Venue": "K.W. Barbeque Shop ",
+  "Address": "10/90-95 The Crescent",
+  "Suburb": "Homebush West",
+  "Time": "4pm to 4:15pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.070828399969",
+  "Lat": "-33.8651570506144",
+  "startTime": "2021-06-29T15:00:00",
+  "endTime": "2021-06-29T15:15:00"
+ },
+ {
   "Venue": "KFC Wetherill Park",
   "Address": "561-583 Polding Street",
   "Suburb": "Wetherill Park",
   "Time": "5:50pm to 6:10pm",
-  "Date": "Wednesday 30 June",
+  "Date": "Wednesday 30 June 2021",
   "Lon": "150.899733740161",
   "Lat": "-33.8570002484108",
   "startTime": "2021-06-30T16:50:00",
@@ -3067,6 +3507,17 @@
   "Lat": "-33.9447856470643",
   "startTime": "2021-06-25T12:55:00",
   "endTime": "2021-06-25T12:15:00"
+ },
+ {
+  "Venue": "Kmart Roselands",
+  "Address": "Roselands Shopping Centre, 24 Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "4:35pm to 4:50pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.069103153176",
+  "Lat": "-33.9348734325873",
+  "startTime": "2021-06-29T15:35:00",
+  "endTime": "2021-06-29T15:50:00"
  },
  {
   "Venue": "Kmart Westfield Burwood",
@@ -3232,6 +3683,28 @@
   "Lat": "-33.9050095674583",
   "startTime": "2021-06-14T12:00:00",
   "endTime": "2021-06-14T12:05:00"
+ },
+ {
+  "Venue": "Lot 19 Caf\u00e9",
+  "Address": "Craigmore, 38 RoslynGardens",
+  "Suburb": "Rushcutters Bay",
+  "Time": "8:25am to 8:35am",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.22789827936",
+  "Lat": "-33.8735945276633",
+  "startTime": "2021-06-29T08:25:00",
+  "endTime": "2021-06-29T08:35:00"
+ },
+ {
+  "Venue": "Lot 19 Caf\u00e9",
+  "Address": "Craigmore, 38 RoslynGardens",
+  "Suburb": "Rushcutters Bay",
+  "Time": "8:25am to 8:35am",
+  "Date": "Thursday 1 July 2021",
+  "Lon": "151.22789827936",
+  "Lat": "-33.8735945276633",
+  "startTime": "2021-07-01T08:25:00",
+  "endTime": "2021-07-01T08:35:00"
  },
  {
   "Venue": "Lotus Barangaroo",
@@ -3520,17 +3993,6 @@
   "endTime": "2021-06-20T19:00:00"
  },
  {
-  "Venue": "McDonalds  Bondi Beach",
-  "Address": "164 Campbell Parade",
-  "Suburb": "Bondi Beach",
-  "Time": "6pm to 7pm",
-  "Date": "Saturday 26 June 2021",
-  "Lon": "151.275033694788",
-  "Lat": "-33.8899289208147",
-  "startTime": "2021-06-26T17:00:00",
-  "endTime": "2021-06-26T18:00:00"
- },
- {
   "Venue": "McDonalds Bondi Beach",
   "Address": "164 Campbell Parade",
   "Suburb": "Bondi Beach",
@@ -3540,6 +4002,17 @@
   "Lat": "-33.8898665973526",
   "startTime": "2021-06-25T11:30:00",
   "endTime": "2021-06-25T12:00:00"
+ },
+ {
+  "Venue": "McDonalds Bondi Beach ",
+  "Address": "164 Campbell Parade",
+  "Suburb": "Bondi Beach",
+  "Time": "6pm to 7pm",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.275033694788",
+  "Lat": "-33.8899289208147",
+  "startTime": "2021-06-26T17:00:00",
+  "endTime": "2021-06-26T18:00:00"
  },
  {
   "Venue": "Mecca Cosmetica Double Bay",
@@ -3807,7 +4280,7 @@
  },
  {
   "Venue": "Novotel Manly",
-  "Address": "55 N Steyne",
+  "Address": "55 North Steyne",
   "Suburb": "Manly",
   "Time": "12am to 12pm",
   "Date": "Saturday 26 June 2021",
@@ -3820,12 +4293,12 @@
   "Venue": "Novotel Manly - Bistro",
   "Address": "55N Steyne",
   "Suburb": "Manly",
-  "Time": "9am to 5pm",
+  "Time": "8am to 9am",
   "Date": "Saturday 26 June 2021",
   "Lon": "151.287769673158",
   "Lat": "-33.795233268807",
-  "startTime": "2021-06-26T09:00:00",
-  "endTime": "2021-06-26T16:00:00"
+  "startTime": "2021-06-26T08:00:00",
+  "endTime": "2021-06-26T09:00:00"
  },
  {
   "Venue": "Oakberry Acai",
@@ -3971,6 +4444,17 @@
   "endTime": "2021-06-24T09:30:00"
  },
  {
+  "Venue": "Ostar International",
+  "Address": "116 Milperra Road",
+  "Suburb": "Revesby",
+  "Time": "1:15pm to 1:30pm",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.007965211359",
+  "Lat": "-33.9352389356797",
+  "startTime": "2021-06-26T12:15:00",
+  "endTime": "2021-06-26T12:30:00"
+ },
+ {
   "Venue": "PCYC Eastern Suburbs other staff, participants or visitors (not in judo)",
   "Address": "26A Bunnerong Road",
   "Suburb": "Daceyville",
@@ -4095,12 +4579,12 @@
   "Venue": "Panetta Mercato Marrickville",
   "Address": "Shop G023, Marrickville Metro, 20 Smidmore Street",
   "Suburb": "Marrickville",
-  "Time": "3:45pm to 4:30pm",
+  "Time": "5pm to 5:20pm",
   "Date": "Saturday 26 June 2021",
   "Lon": "151.171806052725",
   "Lat": "-33.9066015648218",
-  "startTime": "2021-06-26T14:45:00",
-  "endTime": "2021-06-26T15:30:00"
+  "startTime": "2021-06-26T16:00:00",
+  "endTime": "2021-06-26T16:20:00"
  },
  {
   "Venue": "Papaya - Birkenhead Point Brand Outlet",
@@ -4169,6 +4653,17 @@
   "endTime": "2021-06-21T13:30:00"
  },
  {
+  "Venue": "Pharmacy 4 Less Five Dock",
+  "Address": "1a/125 Great North Road",
+  "Suburb": "Five Dock",
+  "Time": "10:40am to 10:55am",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.113925264836",
+  "Lat": "-33.8692935302882",
+  "startTime": "2021-06-29T10:40:00",
+  "endTime": "2021-06-29T10:55:00"
+ },
+ {
   "Venue": "Pita Mix",
   "Address": "502 Old South Head Road",
   "Suburb": "Rose Bay",
@@ -4235,6 +4730,17 @@
   "endTime": "2021-06-21T16:15:00"
  },
  {
+  "Venue": "Priceline Roselands",
+  "Address": "Roselands Shopping Centre, 24 Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "4:40pm to 4:55pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.069103153176",
+  "Lat": "-33.9348734325873",
+  "startTime": "2021-06-29T15:40:00",
+  "endTime": "2021-06-29T15:55:00"
+ },
+ {
   "Venue": "Pro-Axel Enfield",
   "Address": "84/108 Madeline Street",
   "Suburb": "Strathfield South",
@@ -4244,6 +4750,17 @@
   "Lat": "-33.8982915718132",
   "startTime": "2021-06-22T11:00:00",
   "endTime": "2021-06-22T11:15:00"
+ },
+ {
+  "Venue": "Rams Food",
+  "Address": "17c/16-20 Henley Road",
+  "Suburb": "Homebush",
+  "Time": "11:10am to 12:10pm",
+  "Date": "Friday 25 June 2021",
+  "Lon": "151.070159239758",
+  "Lat": "-33.8662328886649",
+  "startTime": "2021-06-25T11:10:00",
+  "endTime": "2021-06-25T12:10:00"
  },
  {
   "Venue": "Raw Bar",
@@ -4376,6 +4893,39 @@
   "Lat": "-33.940712436868",
   "startTime": "2021-06-24T17:20:00",
   "endTime": "2021-06-24T17:25:00"
+ },
+ {
+  "Venue": "Roselands Shopping Centre",
+  "Address": "24 Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "8am to 5:15pm",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.069103153176",
+  "Lat": "-33.9348734325873",
+  "startTime": "2021-06-28T08:00:00",
+  "endTime": "2021-06-28T16:15:00"
+ },
+ {
+  "Venue": "Roselands Shopping Centre",
+  "Address": "24 Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "8am to 4:45pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.069103153176",
+  "Lat": "-33.9348734325873",
+  "startTime": "2021-06-29T08:00:00",
+  "endTime": "2021-06-29T15:45:00"
+ },
+ {
+  "Venue": "Roselands Shopping Centre",
+  "Address": "24 Roselands Drive",
+  "Suburb": "Roselands",
+  "Time": "8am to 3:30pm",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.069103153176",
+  "Lat": "-33.9348734325873",
+  "startTime": "2021-06-30T08:00:00",
+  "endTime": "2021-06-30T14:30:00"
  },
  {
   "Venue": "Rouse Hill Town Centre",
@@ -4598,6 +5148,39 @@
   "endTime": "2021-06-15T12:40:00"
  },
  {
+  "Venue": "Service NSW Botany",
+  "Address": "5 Lord Street",
+  "Suburb": "Botany",
+  "Time": "8am to 5pm",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.196517634863",
+  "Lat": "-33.9403167341204",
+  "startTime": "2021-06-28T08:00:00",
+  "endTime": "2021-06-28T16:00:00"
+ },
+ {
+  "Venue": "Service NSW Botany",
+  "Address": "5 Lord Street",
+  "Suburb": "Botany",
+  "Time": "8am to 5pm",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.196517634863",
+  "Lat": "-33.9403167341204",
+  "startTime": "2021-06-30T08:00:00",
+  "endTime": "2021-06-30T16:00:00"
+ },
+ {
+  "Venue": "Service NSW Botany",
+  "Address": "5 Lord Street",
+  "Suburb": "Botany",
+  "Time": "8am to 5pm",
+  "Date": "Thursday 1 July 2021",
+  "Lon": "151.196517634863",
+  "Lat": "-33.9403167341204",
+  "startTime": "2021-07-01T08:00:00",
+  "endTime": "2021-07-01T16:00:00"
+ },
+ {
   "Venue": "Shell Coles Express Pagewood",
   "Address": "297-299 Bunnerong Road",
   "Suburb": "Pagewood",
@@ -4629,6 +5212,17 @@
   "Lat": "-33.888892899336",
   "startTime": "2021-06-22T15:45:00",
   "endTime": "2021-06-22T17:15:00"
+ },
+ {
+  "Venue": "Spices of India",
+  "Address": "111-113 Church Street",
+  "Suburb": "Parramatta",
+  "Time": "6pm to 6:15pm",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.003620655792",
+  "Lat": "-33.8187968371427",
+  "startTime": "2021-06-30T17:00:00",
+  "endTime": "2021-06-30T17:15:00"
  },
  {
   "Venue": "Spotlight Castle Hill",
@@ -4708,15 +5302,26 @@
   "endTime": "2021-06-29T12:35:00"
  },
  {
+  "Venue": "Strathfield Plaza  ",
+  "Address": "11 The Boulevard",
+  "Suburb": "Strathfield",
+  "Time": "1:15pm to 2:15pm",
+  "Date": "Thursday 1 July 2021",
+  "Lon": "151.093549402198",
+  "Lat": "-33.8727227660038",
+  "startTime": "2021-07-01T12:15:00",
+  "endTime": "2021-07-01T13:15:00"
+ },
+ {
   "Venue": "Strathfield Plaza Medical Practice",
   "Address": "11-23 Boulevarde",
   "Suburb": "Strathfield",
   "Time": "1:30pm to 2:10pm",
-  "Date": "Monday 28 June 2021",
+  "Date": "Thursday 1 July 2021",
   "Lon": "151.093227538589",
   "Lat": "-33.8727851274147",
-  "startTime": "2021-06-28T12:30:00",
-  "endTime": "2021-06-28T13:10:00"
+  "startTime": "2021-07-01T12:30:00",
+  "endTime": "2021-07-01T13:10:00"
  },
  {
   "Venue": "Supa IGA Blaxland",
@@ -4764,7 +5369,7 @@
  },
  {
   "Venue": "Sydney Airport - Domestic Terminal 2",
-  "Address": "Shiers Avenue",
+  "Address": "Keith Smith Avenue",
   "Suburb": "Mascot",
   "Time": "11am to 11:30am",
   "Date": "Friday 25 June 2021",
@@ -4775,10 +5380,10 @@
  },
  {
   "Venue": "Sydney Airport - Domestic Terminal 2",
-  "Address": "Shiers Avenue",
+  "Address": "Keith Smith Avenue",
   "Suburb": "Mascot",
   "Time": "10:30am to 11am",
-  "Date": "Saturday 26 June",
+  "Date": "Saturday 26 June 2021",
   "Lon": "151.179341138362",
   "Lat": "-33.9342651929866",
   "startTime": "2021-06-26T10:30:00",
@@ -4786,25 +5391,25 @@
  },
  {
   "Venue": "Sydney Airport - Domestic Terminal 2",
-  "Address": "Shiers Avenue",
+  "Address": "Keith Smith Avenue",
   "Suburb": "Mascot",
   "Time": "3pm to 3:30pm",
-  "Date": "Saturday 26 June",
+  "Date": "Saturday 26 June 2021",
   "Lon": "151.179341138362",
   "Lat": "-33.9342651929866",
   "startTime": "2021-06-26T14:00:00",
   "endTime": "2021-06-26T14:30:00"
  },
  {
-  "Venue": "Sydney Growers Market Building D",
-  "Address": "250-318 Parramatta Road",
-  "Suburb": "Homebush",
-  "Time": "4pm to 5pm",
-  "Date": "Tuesday 29 June 2021",
-  "Lon": "151.073012441096",
-  "Lat": "-33.8607551458712",
-  "startTime": "2021-06-29T15:00:00",
-  "endTime": "2021-06-29T16:00:00"
+  "Venue": "TAB Gladesville",
+  "Address": "1e Cowell Street",
+  "Suburb": "Gladesville",
+  "Time": "9:30am to 10am",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.127338979396",
+  "Lat": "-33.8325814839882",
+  "startTime": "2021-06-26T09:30:00",
+  "endTime": "2021-06-26T10:00:00"
  },
  {
   "Venue": "TAFE NSW Meadowbank Campus",
@@ -4838,6 +5443,17 @@
   "Lat": "-33.9187311675227",
   "startTime": "2021-06-22T10:00:00",
   "endTime": "2021-06-22T10:10:00"
+ },
+ {
+  "Venue": "Tan Huong Long Supermarket",
+  "Address": "90-95 The Crescent",
+  "Suburb": "Homebush West",
+  "Time": "4:30pm to 4:45pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.070820084629",
+  "Lat": "-33.8651367292489",
+  "startTime": "2021-06-29T15:30:00",
+  "endTime": "2021-06-29T15:45:00"
  },
  {
   "Venue": "Taste Growers fruit and veggie shop - East Village Shopping Centre",
@@ -5003,6 +5619,17 @@
   "Lat": "-33.8944652454676",
   "startTime": "2021-06-15T12:15:00",
   "endTime": "2021-06-15T12:45:00"
+ },
+ {
+  "Venue": "The Locker Room",
+  "Address": "15 Olympic Blvd Sydney ",
+  "Suburb": "Sydney Olympic Park",
+  "Time": "10am to 7pm",
+  "Date": "Saturday 26 June 2021",
+  "Lon": "151.066450409771",
+  "Lat": "-33.8469070746376",
+  "startTime": "2021-06-26T10:00:00",
+  "endTime": "2021-06-26T18:00:00"
  },
  {
   "Venue": "The Outlet - Birkenhead Point Brand Outlet",
@@ -5184,12 +5811,12 @@
   "Venue": "Volkswagon Rockdale",
   "Address": "589 Princes Highway",
   "Suburb": "Rockdale",
-  "Time": "",
+  "Time": "2:30pm to 4pm",
   "Date": "Monday 28 June 2021",
   "Lon": "151.138430256018",
   "Lat": "-33.9555706470078",
-  "startTime": "2021-06-28T00:00:00",
-  "endTime": "2021-06-29T00:00:00"
+  "startTime": "2021-06-28T13:30:00",
+  "endTime": "2021-06-28T15:00:00"
  },
  {
   "Venue": "Wax Car Wash Cafe",
@@ -5313,6 +5940,17 @@
   "endTime": "2021-06-25T11:30:00"
  },
  {
+  "Venue": "Westfield Parramatta (whole complex)",
+  "Address": "159-175 Church Street",
+  "Suburb": "Parramatta",
+  "Time": "5:30pm to 6:15pm",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.000107626957",
+  "Lat": "-33.8176087257875",
+  "startTime": "2021-06-30T16:30:00",
+  "endTime": "2021-06-30T17:15:00"
+ },
+ {
   "Venue": "Westpac Marrickville",
   "Address": "241-243 Marrickville Road",
   "Suburb": "Marrickville",
@@ -5346,6 +5984,17 @@
   "endTime": "2021-06-23T15:00:00"
  },
  {
+  "Venue": "Wing Fat Meat Market",
+  "Address": "88-90 South Parade",
+  "Suburb": "Auburn",
+  "Time": "10am to 10:10am",
+  "Date": "Sunday 27 June 2021",
+  "Lon": "151.032893695853",
+  "Lat": "-33.8496307815825",
+  "startTime": "2021-06-27T10:00:00",
+  "endTime": "2021-06-27T10:10:00"
+ },
+ {
   "Venue": "Wings Dragon",
   "Address": "24 Old South Head Road",
   "Suburb": "Vaucluse",
@@ -5360,12 +6009,23 @@
   "Venue": "Woolworths Avalon Beach",
   "Address": "74 Old Barrenjoey Road",
   "Suburb": "Avalon Beach",
-  "Time": "3:30pm to 4pm",
+  "Time": "3pm to 4:30pm",
   "Date": "Saturday 26 June 2021",
   "Lon": "151.330021234047",
   "Lat": "-33.6359227357419",
-  "startTime": "2021-06-26T14:30:00",
-  "endTime": "2021-06-26T15:00:00"
+  "startTime": "2021-06-26T14:00:00",
+  "endTime": "2021-06-26T15:30:00"
+ },
+ {
+  "Venue": "Woolworths Bondi Junction",
+  "Address": "530 Oxford Street",
+  "Suburb": "Bondi Junction",
+  "Time": "9am to 9:15am",
+  "Date": "Monday 28 June 2021",
+  "Lon": "151.25132452279",
+  "Lat": "-33.8912285548441",
+  "startTime": "2021-06-28T09:00:00",
+  "endTime": "2021-06-28T09:15:00"
  },
  {
   "Venue": "Woolworths Carnes Hill",
@@ -5456,6 +6116,28 @@
   "endTime": "2021-06-25T15:30:00"
  },
  {
+  "Venue": "Woolworths Hillsdale",
+  "Address": "South Point Shopping Centre, 238-262 Bunnerong Road",
+  "Suburb": "Hillsdale",
+  "Time": "9:30am to 6:30pm",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.231631786879",
+  "Lat": "-33.9517228514178",
+  "startTime": "2021-06-30T09:30:00",
+  "endTime": "2021-06-30T17:30:00"
+ },
+ {
+  "Venue": "Woolworths Hillsdale",
+  "Address": "South Point Shopping Centre, 238-262 Bunnerong Road",
+  "Suburb": "Hillsdale",
+  "Time": "9am to 6pm",
+  "Date": "Thursday 1 July 2021",
+  "Lon": "151.231631786879",
+  "Lat": "-33.9517228514178",
+  "startTime": "2021-07-01T09:00:00",
+  "endTime": "2021-07-01T17:00:00"
+ },
+ {
   "Venue": "Woolworths Lakemba",
   "Address": "2/26 Haldon Street",
   "Suburb": "Lakemba",
@@ -5542,6 +6224,28 @@
   "Lat": "-33.8690252694341",
   "startTime": "2021-06-16T12:20:00",
   "endTime": "2021-06-16T12:40:00"
+ },
+ {
+  "Venue": "Woolworths Metro Potts Point",
+  "Address": "Icon Building, 81 Macleay Street",
+  "Suburb": "Potts Point",
+  "Time": "6:15pm to 6:30pm",
+  "Date": "Tuesday 29 June 2021",
+  "Lon": "151.225210901781",
+  "Lat": "-33.8701124016491",
+  "startTime": "2021-06-29T17:15:00",
+  "endTime": "2021-06-29T17:30:00"
+ },
+ {
+  "Venue": "Woolworths Mortdale",
+  "Address": "84D Roberts Avenue",
+  "Suburb": "Mortdale",
+  "Time": "5:30pm to 6:40pm",
+  "Date": "Wednesday 30 June 2021",
+  "Lon": "151.064914170556",
+  "Lat": "-33.9686733480804",
+  "startTime": "2021-06-30T16:30:00",
+  "endTime": "2021-06-30T17:40:00"
  },
  {
   "Venue": "Woolworths Newington ",
