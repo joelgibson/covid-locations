@@ -97,13 +97,24 @@ class Case:
 
 def parse_datetime(json_filename: str) -> str:
     """
+    Usually a file comes with a timestamp attached:
+
     >>> parse_datetime('covid-case-locations-20210630-200.json')
     '2021-06-30T02:00'
+    >>> parse_datetime('covid-case-locations-20210705-1458.json')
+    '2021-07-05T14:58'
+
+    Sometimes a file comes with no timestamp, assume midnight:
+
+    >>> parse_datetime('covid-case-locations-20210706.json')
+    '2021-07-06T00:00'
     """
-    _, date, time = json_filename[:-5].rsplit('-', maxsplit=2)
-    date = date[0:4] + '-' + date[4:6] + '-' + date[6:8]
-    time = f"{int(time[:-2]):02d}:{time[-2:]}"
-    return date + 'T' + time
+    pattern = r'([0-9]{4})([0-9]{2})([0-9]{2})(?:-([0-9]{1,2})([0-9]{2}))?'
+    year, month, day, hour, mins = re.search(pattern, json_filename).groups()
+    hour = int(hour) if hour else 0
+    mins = int(mins) if mins else 0
+    return f'{year}-{month}-{day}T{hour:02d}:{mins:02d}'
+
 
 
 def read_case_json(json_file):

@@ -244,3 +244,23 @@ Case(Venue='Westfield Bondi Junction (including car park)', Address='500 Oxford 
 
 # No cases retired casefiles/2021-07-04T22:45 casefiles/2021-07-04T23:00
 
+# No cases retired casefiles/2021-07-04T23:00 casefiles/2021-07-05T13:33
+
+# No cases retired casefiles/2021-07-05T13:33 casefiles/2021-07-05T14:58
+
+# No cases retired casefiles/2021-07-05T14:58 casefiles/2021-07-05T15:28
+
+# 5 cases retired casefiles/2021-07-05T15:28 casefiles/2021-07-05T17:07
+# Looks like these were entered in error on the wrong date.
+# Case(Venue='Meriton Suites Waterloo', Address='30 Danks Street', Suburb='Waterloo', Time='All day', Date='Friday 2 June 2021', Lon='51.2151740846384', Lat='-33.8978971313992')
+# Case(Venue='Meriton Suites Waterloo', Address='30 Danks Street', Suburb='Waterloo', Time='All day', Date='Saturday 3 June 2021', Lon='51.2151740846384', Lat='-33.8978971313992')
+# Case(Venue='Meriton Suites Waterloo', Address='30 Danks Street', Suburb='Waterloo', Time='All day', Date='Sunday 4 June 2021', Lon='51.2151740846384', Lat='-33.8978971313992')
+# Case(Venue='Meriton Suites Waterloo', Address='30 Danks Street', Suburb='Waterloo', Time='12am to 8am', Date='Monday 5 June 2021', Lon='51.2151740846384', Lat='-33.8978971313992')
+# Case(Venue='Chanel Fragrance and Beauty Westfield Bondi', Address='Shop 4039 Level 4 / 500 Oxford St', Suburb='Bondi Junction', Time='12pm to 12:25pm', Date='Friday 18 June 2021', Lon='151.25093035021', Lat='-33.8914180517055')
+
+# No cases retired casefiles/2021-07-05T17:07 casefiles/2021-07-05T21:29
+
+# No cases retired casefiles/2021-07-05T21:29 casefiles/2021-07-05T21:41
+
+# No cases retired casefiles/2021-07-05T21:41 casefiles/2021-07-06T00:00
+
