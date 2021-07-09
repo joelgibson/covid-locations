@@ -3,3 +3,5 @@ node_modules
 hidden
 data/update_log
 __pycache__
+data/json/*.raw
+data/json/*.bad
